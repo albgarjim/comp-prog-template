@@ -65,6 +65,8 @@ Steps for the process
 ```
 The code allows the flags `-d` for debug and `-p` for production
 
+If the script is executed with the `-d` flag, the result will be located on the debug folder
+If the script is executed with the `-p` flag, the result will be located on the prod folder. The resulting source.cpp is the file that should be uploaded.
 
 
 ## License
